@@ -1,6 +1,6 @@
 # DML-imp
 
-## apex DML of changing owenr will not sent email notification to new owner to allow, we need to use Database.DMLOptions
+### Apex DML of changing owenr will not sent email notification to new owner to allow, we need to use Database.DMLOptions
     
     Database.DMLOptions dlo = new Database.DMLOptions();    
     dlo.EmailHeader.triggerAutoResponseEmail = true;
